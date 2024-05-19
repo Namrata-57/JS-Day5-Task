@@ -11,9 +11,9 @@ class Person {
         this.email = email;
         this.mobileNumber = mobileNumber;
     }
-} 
+}
 
-Person.prototype.working = function(){
+Person.prototype.working = function () {
     console.log(`${this.firstName} ${this.lastName} is working as a Software Developer.`)
 }
 
